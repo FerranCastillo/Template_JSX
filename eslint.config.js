@@ -13,6 +13,15 @@ export default [
     files: ['**/*.{js,jsx}'],
     ignores: ['dist', 'node_modules'],
     languageOptions: {
+      globals: {
+        alert: 'readonly',
+        console: 'readonly',
+        document: 'readonly',
+        browser: true,
+        es2022: true,
+        es6: true,
+        node: true,
+      },
       parserOptions: {
         ecmaVersion: 2022,
         sourceType: 'module',
@@ -138,7 +147,7 @@ export default [
       'no-unused-vars': 'off',
       'no-use-before-define': 'off',
       'no-var-requires': 'off',
-      'no-undef': 'off',
+      'no-undef': 'error',
     },
     settings: {
       react: {
