@@ -1,7 +1,13 @@
-import './App.css';
+import UsersList from './components/UsersList';
+import './styles/App.css';
 
 function App() {
-  return <div></div>;
+  const users = ['Ana', 'Carlos', 'María'];
+  return (
+    <div className="app">
+      <UsersList users={users} />
+    </div>
+  );
 }
 
 export default App;

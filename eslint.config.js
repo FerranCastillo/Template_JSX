@@ -29,6 +29,7 @@ export default [
       'react-refresh': refreshPlugin,
     },
     rules: {
+      'react/jsx-no-undef': 'error',
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
       'react/react-in-jsx-scope': 'off',
       'react/jsx-uses-react': 'off',

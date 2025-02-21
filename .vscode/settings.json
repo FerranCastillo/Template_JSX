@@ -13,4 +13,5 @@
   "files.autoSave": "afterDelay",
   "editor.guides.bracketPairs": true,
   "chat.commandCenter.enabled": false,
+	"editor.pasteAs.enabled": false
 }
