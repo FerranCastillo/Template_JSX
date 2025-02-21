@@ -31,9 +31,6 @@
     "noImplicitThis": true,
 		"allowSyntheticDefaultImports": true,
 		"baseUrl": "./",
-		"paths": {
-      "@components/*": ["src/components/*"]
-    }
 	},
 	"include": ["src","types"],
 	"exclude": [

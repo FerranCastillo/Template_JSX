@@ -8,6 +8,12 @@
 .user-wrapper{
 	margin: 8px 0px 8px 0px;
 }
+.display-flex{
+	display: flex;
+}
+.margin-right{
+	margin-right: 8px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

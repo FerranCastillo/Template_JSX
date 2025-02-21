@@ -6,7 +6,7 @@ const UsersList = (props) => {
       <hr />
       {props.users.map((user, index) => (
         <div key={index} className="user-wrapper">
-          <UserInfo name={user} age={30} profession={'Programador'} />
+          <UserInfo name={user} />
           <hr />
         </div>
       ))}
