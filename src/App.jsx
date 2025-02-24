@@ -2,7 +2,7 @@ import UsersList from './components/UsersList';
 import './styles/App.css';
 
 function App() {
-  const users = ['Ana', 'Carlos', 'María'];
+  const users = ['Ruben', 'Laura', 'Jose', 'Osama'];
   return (
     <div className="app">
       <UsersList users={users} />
