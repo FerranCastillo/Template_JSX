@@ -1,12 +1,12 @@
 import UserInfo from './UserInfo';
 
-const UsersList = (props) => {
+const UsersList = ({ users }) => {
   return (
     <div className="user-list">
       <hr />
-      {props.users.map((user, index) => (
+      {users.map((user, index) => (
         <div key={index} className="user-wrapper">
-          <UserInfo name={user} />
+          <UserInfo name={user.name} age={user.age} />
           <hr />
         </div>
       ))}

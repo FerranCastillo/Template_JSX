@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #23272D;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -43,20 +43,31 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
-	color: #646cff;
+  border-color: #ffff !important;
+	color: #ffff !important;
 	box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%) !important;
+}
+.MuiButton-root {
+	background-color: #47b8d7 !important;
+	color: black !important;
+}
+.MuiButton-root.Mui-disabled{
+	opacity: 0.5 !important;
+}
+.MuiButton-root.Mui-disabled{
+	color:light-dark(rgba(16, 16, 16, 0.3), rgba(255, 255, 255, 0.3)) !important;
+
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #ffff;
+    background-color: #23272D;
   }
   a:hover {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #47b8d7;
   }
 }
